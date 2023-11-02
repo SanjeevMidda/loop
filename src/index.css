@@ -1,0 +1,30 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  display: flex;
+  width: 32vw;
+  flex-wrap: wrap;
+}
+
+.show{
+  opacity: 1;
+  transition: all 1s;
+}
+
+.dontShow{
+  /* opacity: 0; */
+  transition: all 1s;
+  /* background-color: red; */
+  color: red;
+}
